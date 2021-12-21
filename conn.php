@@ -5,7 +5,7 @@ $messag = $_POST['messag'];
 
 if(!empty($username)){
 	//create connection
-	$con = new mysqli('localhost', 'id15704794_root', 'Radheshyam@208', 'id15704794_dscproject');
+	$con = new mysqli('localhost', '****', '*****', '***');
 	if (mysqli_connect_error()) {
 	die('Connect Error('.mysqli_connect_error().')'. mysqli_connect_error());
 } else {
